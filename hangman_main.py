@@ -13,7 +13,11 @@ def play(word):
     guessed_letters = []
     tries = 6  # (head + body + 2 hands + 2 legs)
 
-    print("Let's play Hangman!!!")
+    print("\n")
+    print("----------------------HANGMAN-----------------------")
+    print('The rules of the game are easy:')
+    print('Guess the word by one letter at a time or the entire word!')
+    print("Let's play!!!")
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
